@@ -4,7 +4,7 @@ const matchList = document.getElementById('match-list');
 //search the json file and retur the value
 const searchStates = async searchText => {
 //creating a fetch api for calling the json file
-const res = await fetch("../data/states.json");
+const res = await fetch("/data/states.json");
 const states = await res.json();
 
 
